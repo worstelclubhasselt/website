@@ -306,7 +306,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background: black;
     opacity: 0.9;
     z-index: -1;
 }
@@ -702,3 +702,4 @@ p {
     }
 }
 /* End  Media Query For Desktop */
+
