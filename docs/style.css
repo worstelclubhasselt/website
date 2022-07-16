@@ -42,6 +42,7 @@ p {
     font-size: 4rem;
     font-weight: 300;
     color: black;
+    font-weight: bold;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -712,4 +713,9 @@ p {
     padding-top: 15px;
     padding-left: 15px;
     padding-bottom: 15px;
+}
+
+#about-us-text {
+    padding-left: 20px;
+    padding-right: 20px;
 }
