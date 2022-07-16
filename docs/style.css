@@ -355,7 +355,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 65%;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -572,6 +572,21 @@ p {
     }
 }
 /* End Keyframes */
+
+@media only screen and (max-width: 768px) {
+    #projects .all-projects p {
+        display: none;
+    }
+
+    #maps-frame {
+        height: 300px;
+    }
+
+    #projects .all-projects {
+        margin-top: -40px;
+    }
+
+}
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
