@@ -718,4 +718,6 @@ p {
 #about-us-text {
     padding-left: 20px;
     padding-right: 20px;
+    color: black;
+    font-weight: 500;
 }
