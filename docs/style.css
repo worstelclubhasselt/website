@@ -68,6 +68,7 @@ p {
 .cta:hover {
     color: white;
     background-color: darkred;
+    border-color: black;
 }
 .brand h1 {
     font-size: 3rem;
@@ -355,7 +356,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 65%;
+    width: 60%;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -586,6 +587,9 @@ p {
         margin-top: -40px;
     }
 
+    #about {
+        margin-top: -80px;
+    }
 }
 
 /* Media Query For Tablet */
