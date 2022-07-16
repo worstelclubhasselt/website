@@ -207,14 +207,14 @@ p {
 /* End Header section */
 
 /* Hero Section */
-#hero {
+#home {
     background-image: url(./assets/58763d3108787.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
     z-index: 1;
 }
-#hero::after {
+#home::after {
     content: '';
     position: absolute;
     left: 0;
@@ -225,13 +225,13 @@ p {
     opacity: 0.7;
     z-index: -1;
 }
-#hero .hero {
+#home .hero {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
 }
-#hero h1 {
+#home h1 {
     display: block;
     width: fit-content;
     font-size: 4rem;
@@ -240,17 +240,17 @@ p {
     animation: text_reveal 0.5s ease forwards;
     animation-delay: 1s;
 }
-#hero h1:nth-child(1) {
+#home h1:nth-child(1) {
     animation-delay: 1s;
 }
-#hero h1:nth-child(2) {
+#home h1:nth-child(2) {
     animation-delay: 2s;
 }
-#hero h1:nth-child(3) {
+#home h1:nth-child(3) {
     animation: text_reveal_name 0.5s ease forwards;
     animation-delay: 3s;
 }
-#hero h1 span {
+#home h1 span {
     position: absolute;
     top: 0;
     left: 0;
@@ -260,38 +260,38 @@ p {
     animation: text_reveal_box 1s ease;
     animation-delay: 0.5s;
 }
-#hero h1:nth-child(1) span {
+#home h1:nth-child(1) span {
     animation-delay: 0.5s;
 }
-#hero h1:nth-child(2) span {
+#home h1:nth-child(2) span {
     animation-delay: 1.5s;
 }
-#hero h1:nth-child(3) span {
+#home h1:nth-child(3) span {
     animation-delay: 2.5s;
 }
 
 /* End Hero Section */
 
 /* Services Section */
-#services .services {
+#over-ons .services {
     flex-direction: column;
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
 }
-#services .service-top {
+#over-ons .service-top {
     max-width: 500px;
     margin: 0 auto;
 }
-#services .service-bottom {
+#over-ons .service-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-#services .service-item {
+#over-ons .service-item {
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
@@ -299,14 +299,13 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(./img/img-1.png);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
-#services .service-item::after {
+#over-ons .service-item::after {
     content: '';
     position: absolute;
     left: 0;
@@ -316,40 +315,40 @@ p {
     background: black;
     z-index: -1;
 }
-#services .service-bottom .icon {
+#over-ons .service-bottom .icon {
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
 }
-#services .service-item h2 {
+#over-ons .service-item h2 {
     font-size: 2rem;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-#services .service-item p {
+#over-ons .service-item p {
     color: white;
     text-align: left;
 }
 /* End Services Section */
 
 /* Projects section */
-#projects .projects {
+#locatie .projects {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
 }
-#projects .projects-header h1 {
+#locatie .projects-header h1 {
     margin-bottom: 50px;
 }
-#projects .all-projects {
+#locatie .all-projects {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#projects .project-item {
+#locatie .project-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,7 +358,7 @@ p {
     overflow: hidden;
     border-radius: 10px;
 }
-#projects .project-info {
+#locatie .project-info {
     padding: 50px;
     flex-basis: 50%;
     height: 100%;
@@ -370,25 +369,25 @@ p {
     background: black;
     color: white;
 }
-#projects .project-info h1 {
+#locatie .project-info h1 {
     font-size: 4rem;
     font-weight: 500;
 }
-#projects .project-info h2 {
+#locatie .project-info h2 {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 10px;
 }
-#projects .project-info p {
+#locatie .project-info p {
     color: white;
 }
-#projects .project-img {
+#locatie .project-img {
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
     position: relative;
 }
-#projects .project-img:after {
+#locatie .project-img:after {
     content: '';
     position: absolute;
     left: 0;
@@ -397,51 +396,51 @@ p {
     width: 100%;
     opacity: 0.7;
 }
-#projects .project-img img {
+#locatie .project-img img {
     transition: 0.3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+#locatie .project-item:hover .project-img img {
     transform: scale(1.1);
 }
 /* End Projects section */
 
 /* About Section */
-#about .about {
+#trainer .about {
     flex-direction: column-reverse;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 20px;
 }
-#about .col-left {
+#trainer .col-left {
     width: 250px;
     height: 360px;
 }
-#about .col-right {
+#trainer .col-right {
     width: 100%;
 }
-#about .col-right h2 {
+#trainer .col-right h2 {
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.2rem;
     margin-bottom: 10px;
 }
-#about .col-right p {
+#trainer .col-right p {
     margin-bottom: 20px;
 }
-#about .col-right .cta {
+#trainer .col-right .cta {
     color: black;
     margin-bottom: 50px;
     padding: 10px 20px;
     font-size: 2rem;
 }
-#about .col-left .about-img {
+#trainer .col-left .about-img {
     height: 100%;
     width: 100%;
     position: relative;
     border: 10px solid white;
 }
-#about .col-left .about-img::after {
+#trainer .col-left .about-img::after {
     content: '';
     position: absolute;
     left: -33px;
@@ -556,7 +555,7 @@ p {
 /* End Keyframes */
 
 @media only screen and (max-width: 768px) {
-    #projects .all-projects p {
+    #locatie .all-projects p {
         display: none;
     }
 
@@ -564,11 +563,11 @@ p {
         height: 300px;
     }
 
-    #projects .all-projects {
+    #locatie .all-projects {
         margin-top: -40px;
     }
 
-    #about {
+    #trainer {
         margin-top: -80px;
     }
 
@@ -599,60 +598,60 @@ p {
     }
 
     /* Hero */
-    #hero h1 {
+    #home h1 {
         font-size: 7rem;
     }
     /* End Hero */
 
     /* Services Section */
-    #services .service-bottom .service-item {
+    #over-ons .service-bottom .service-item {
         flex-basis: 45%;
         margin: 2.5%;
     }
     /* End Services Section */
 
     /* Project */
-    #projects .project-item {
+    #locatie .project-item {
         flex-direction: row;
     }
-    #projects .project-item:nth-child(even) {
+    #locatie .project-item:nth-child(even) {
         flex-direction: row-reverse;
     }
-    #projects .project-item {
+    #locatie .project-item {
         height: 400px;
         margin: 0;
         width: 100%;
         border-radius: 0;
     }
-    #projects .all-projects .project-info {
+    #locatie .all-projects .project-info {
         height: 100%;
     }
-    #projects .all-projects .project-img {
+    #locatie .all-projects .project-img {
         height: 100%;
     }
     /* End Project */
 
     /* About */
-    #about .about {
+    #trainer .about {
         flex-direction: row;
     }
-    #about .col-left {
+    #trainer .col-left {
         width: 600px;
         height: 400px;
         padding-left: 60px;
     }
-    #about .about .col-left .about-img::after {
+    #trainer .about .col-left .about-img::after {
         left: -45px;
         top: 34px;
         height: 98%;
         width: 98%;
         border: 10px solid darkred;
     }
-    #about .col-right {
+    #trainer .col-right {
         text-align: left;
         padding: 30px;
     }
-    #about .col-right h1 {
+    #trainer .col-right h1 {
         text-align: left;
     }
     /* End About */
@@ -717,7 +716,7 @@ p {
     }
     /* End header */
 
-    #services .service-bottom .service-item {
+    #over-ons .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
     }
