@@ -176,7 +176,7 @@ p {
 }
 #header .hamburger .bar {
     height: 2px;
-    width: 30px;
+    width: 20px;
     position: relative;
     background-color: white;
     z-index: -1;
@@ -560,8 +560,19 @@ p {
     }
 
     #header .hamburger {
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #header .hamburger .bar::after {
+        top: 4px;
+    }
+    #header .hamburger .bar::before {
+        bottom: 4px;
+    }
+
+    #header .hamburger .bar {
+        width: 14px;
     }
 
     .brand h1 {
