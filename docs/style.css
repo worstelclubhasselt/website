@@ -314,7 +314,6 @@ p {
     height: 100%;
     width: 100%;
     background: black;
-    opacity: 0.9;
     z-index: -1;
 }
 #services .service-bottom .icon {
